@@ -1,0 +1,122 @@
+
+<!-- FOR ASS QUE 1 -->
+<!-- <hibernate-configuration>
+    <session-factory> -->
+
+        <!-- JDBC Properties -->
+       <!--<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shrisha</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+         --> 
+        <!-- Hibernate Properties -->
+        <!-- <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.dialect.storage_engine">innodb</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+  
+
+         <mapping class="com.hibernate.ASSIGNMENT_1906.Person"/>
+        <mapping class="com.hibernate.ASSIGNMENT_1906.AadharCard"/>
+    </session-factory>
+</hibernate-configuration> -->
+
+
+<!-- FOR ASS QUE 2 -->
+<!-- <!DOCTYPE hibernate-configuration PUBLIC 
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory> -->
+
+        <!-- DB settings -->
+        <!--<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shrisha</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+          -->
+        <!-- Hibernate settings -->
+       <!--  <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property> -->
+
+        <!-- Mapping -->
+       <!-- <mapping class="com.hibernate.ASSIGNMENT_1906.Department"/>
+        <mapping class="com.hibernate.ASSIGNMENT_1906.Employee"/>
+
+    </session-factory>
+</hibernate-configuration>
+        --> 
+        
+        
+        <!-- FOR ASS QUE 3 -->
+    <!-- <!DOCTYPE hibernate-configuration PUBLIC 
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shrisha</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+  <mapping class="com.hibernate.ASSIGNMENT_1906.Student"/>
+<mapping class="com.hibernate.ASSIGNMENT_1906.Course"/>
+
+  </session-factory>
+</hibernate-configuration>
+         -->
+
+         
+         <!-- FOR ASS QUE 4 -->
+    
+<!--<!DOCTYPE hibernate-configuration PUBLIC 
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shrisha</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+
+    <mapping class="com.hibernate.ASSIGNMENT_1906.Husband"/>
+    <mapping class="com.hibernate.ASSIGNMENT_1906.Wife"/>
+  </session-factory>
+</hibernate-configuration>
+           -->
+           
+           <!-- FOR ASS QUE 5 -->
+     
+<!DOCTYPE hibernate-configuration PUBLIC 
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shrisha</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+
+    <mapping class="com.hibernate.ASSIGNMENT_1906.Author"/>
+    <mapping class="com.hibernate.ASSIGNMENT_1906.Book"/>
+  </session-factory>
+</hibernate-configuration>
+           
